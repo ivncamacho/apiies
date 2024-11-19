@@ -10,14 +10,9 @@ use Knuckles\Scribe\Attributes\Group;
 use Knuckles\Scribe\Attributes\QueryParam;
 
 /**
- * @group Products
- *
- * Managing products
- *
- * @queryParam page int The page number. Example: 1
+ * Show the form for creating a new resource
  */
-#[Group('Categories', description: 'Managing categories')]
-#[QueryParam('page', 'int', 'The page number', example: 1)]
+
 class ProductController extends Controller
 {
     public function index()
@@ -26,4 +21,10 @@ class ProductController extends Controller
 
         return ProductResource::collection($products);
     }
+    public function create(){
+
+    }
+    /**
+     * Store a newly created resource in storage
+     */
 }
