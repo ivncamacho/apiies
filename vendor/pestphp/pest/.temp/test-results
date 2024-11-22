@@ -1,0 +1,1 @@
+{"version":"pest_3.5.0","defects":[],"times":{"Tests\\Feature\\Api\\CategoryTest::test_api_returns_categories_list":8.672,"Tests\\Feature\\Api\\CategoryTest::test_api_category_store_successful":0.901}}
